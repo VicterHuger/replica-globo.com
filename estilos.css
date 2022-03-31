@@ -5,7 +5,7 @@ body {
     font-family: "Encode Sans", sans-serif;
     justify-content: center;
   }
-  header {
+  body>header:first-child {
     height: 80px;
     display: flex;
     align-items: center;
@@ -16,6 +16,18 @@ body {
   }
   .logo {
     display: block;
+  }
+  .cabecalho-mobile {
+    height: 80px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f5f6f7;
+  }
+  logo-mobile{
+    display:none;
   }
   .g1 {
     color: #c3170c;
